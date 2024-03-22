@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/alta-tech-d251f/saleor:latest', '.']
+images:
+- 'gcr.io/alta-tech-d251f/saleor:latest'
